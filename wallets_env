@@ -1,4 +1,4 @@
-#!/bin/bash
+# easy way to source wallets as variables in the env
 
 for wallet in *_WALLET
 do
