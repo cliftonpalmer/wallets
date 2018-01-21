@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for wallet in *_WALLET
+do
+	export $wallet=`cat $wallet`
+done
